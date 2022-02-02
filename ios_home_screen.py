@@ -19,11 +19,6 @@ import traceback
 import uuid
 from abc import ABC, abstractmethod
 
-# Enum for 
-class Item_Types:
-    APP = 1
-    FOLDER = 2
-
 class Node:
     next = None
     prev = None
